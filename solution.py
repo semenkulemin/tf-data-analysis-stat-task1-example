@@ -9,4 +9,4 @@ def solution(x: np.array) -> float:
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
     x = x / 169
-    return np.median(x) # Ваш ответ
+    return x.mean() # Ваш ответ
